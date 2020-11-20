@@ -36,20 +36,23 @@ img = cv2.imread("cat.png")
 Image negative is produced by subtracting each pixel from the maximum intensity value.<br>
 This is a very easy method rather than manipulating individual color channels.<br> 
 ```python
-inv = 255-img
+kernel_sharpening = np.array([[-1,-1,-1], 
+                              [-1, 9,-1],
+                              [-1,-1,-1]])
+sharpened = cv2.filter2D(img,-1,kernel_sharpening)
 ```
 
 ## Completion message
 
 ```python
-print('Negative Image created.')
+print('Image Sharpened.')
 ```
 
-## Comparing original vs grayscale
+## comparing original vs resized
 
 ```python
 cv2.imshow('ORIGINAL',img)
-cv2.imshow('INVERSE',inv)
+cv2.imshow('SHARPEN',sharpened)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```

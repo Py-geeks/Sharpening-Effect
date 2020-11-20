@@ -32,15 +32,24 @@ img = cv2.imread("cat.png")
 ```
 
 
-## Negative conversion
-Image negative is produced by subtracting each pixel from the maximum intensity value.<br>
-This is a very easy method rather than manipulating individual color channels.<br> 
+## Adding Sharpening effect
+Image sharpening refers to any enhancement technique that highlights edges and,<br>
+fine details in an image.<br>
+Image sharpening is widely used in printing and photographic industries for increasing<br>
+the local contrast and sharpening the images.<br>
 ```python
 kernel_sharpening = np.array([[-1,-1,-1], 
                               [-1, 9,-1],
                               [-1,-1,-1]])
+```
+Above we are adding a kernel enabled with an array of values used to normalize the pixel values.<br>
+You can play with the values we have entered to change the amount of sharpening.<br>
+```python
 sharpened = cv2.filter2D(img,-1,kernel_sharpening)
 ```
+Here we used *cv2.filter2D()* function in order to produce our sharpen image. Here the kernel and<br>
+input image are filtered.<br>
+This function takes 3 args *input image* , *Desired depth* & *kernel values*. <br>
 
 ## Completion message
 

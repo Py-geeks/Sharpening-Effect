@@ -1,5 +1,6 @@
 # Sharpening-Effect
 Sharpening an image is a very basic method of image processing <br> 
+In principle, image sharpening consists of adding to the original image a signal that is proportional to a high-pass filtered version of the original image
 
 ## Tools and Languages:
 <img align="left" alt="OpenCV" width="26px" src="opencv.png" >

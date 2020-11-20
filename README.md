@@ -47,7 +47,7 @@ You can play with the values we have entered to change the amount of sharpening.
 ```python
 sharpened = cv2.filter2D(img,-1,kernel_sharpening)
 ```
-Here we used *cv2.filter2D()* function in order to produce our sharpen image. Here the kernel and<br>
+Here we used *cv2.filter2D( )* function in order to produce our sharpen image. Here the kernel and<br>
 input image are filtered.<br>
 This function takes 3 args *input image* , *Desired depth* & *kernel values*. <br>
 

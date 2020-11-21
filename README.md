@@ -67,8 +67,8 @@ cv2.destroyAllWindows()
 ```
 
 ## Images
-<img align="left" alt="pip" width="300px" height="250px" src="cat.png" >
-<img align="left" alt="pip" width="300px" height="250px" src="sharpened.png" >
+<img align="center" alt="pip" width="300px" height="250px" src="cat.png" >
+<img align="center" alt="pip" width="300px" height="250px" src="sharpened.png" >
 <br>
 	
 

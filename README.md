@@ -67,10 +67,10 @@ cv2.destroyAllWindows()
 ```
 
 ## Images
-<p align="center">
-	<img src="cat.png" alt="Logo" height=250px,width=350px>
-	<img src="sharpened.PNG" alt="SHARP" height=250px,width=350px>
-</p>
+
+	<img align="center" alt="Logo" height=250px width=350px src="cat.png">
+	<img align="center" alt="SHARP" height=250px width=350px src="sharpened.PNG">
+
 
 ### Developed by
  [Ashish ku. Behera](https://github.com/ashish-max "Github Id")

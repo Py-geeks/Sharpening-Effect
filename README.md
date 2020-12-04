@@ -68,8 +68,8 @@ cv2.destroyAllWindows()
 
 ## Images
 <p align="center">
-       <img src="cat.png" alt="Original png" width="300px" height="250px">
-       <img src="sharpened.PNG" alt="Sharpened" width="300px" height="250px">
+       <img src="cat.png" alt="Original png" height="350px" width="250px">
+       <img src="sharpened.PNG" alt="Sharpened" height="350px" width="240px">
 </p>
 	
 
